@@ -46,3 +46,29 @@ footer {
     margin-right: 0; 
 }
 
+#icons a i {
+    color: #00ff00;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects th {
+    font-size:x-large;
+}
+
+.bordered-table {
+    width: 20%;
+    border-collapse: collapse;
+    font-size: 1em;
+    text-align: left;
+    border: 2px solid #00ff00; 
+}
+
+.bordered-table th, .bordered-table td {
+    padding: 12px 15px;
+    border: 1px solid #00ff00;
+}
